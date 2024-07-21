@@ -15,4 +15,4 @@ data:
   TZ: america/chicago
   COMMUNITY: "True"  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
   SERVER_NAME: "Bum Boys 2024"
-  SERVER_DESCRIPTION: "Rule #1"
+  SERVER_DESCRIPTION: "Rule #1 must bum"
