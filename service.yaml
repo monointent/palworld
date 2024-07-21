@@ -5,6 +5,7 @@ metadata:
   labels:
     app: palworld-server
   name: palworld-server
+  namespace: palworld-server
 spec:
   ports:
     - name: server
