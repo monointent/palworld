@@ -4,7 +4,9 @@ kind: Deployment
 metadata:
   labels:
     app: palworld-server
+    app.kubernetes.io/instance: palworld-server
   name: palworld-server
+  namespace: palworld-server
 spec:
   replicas: 1
   strategy:
