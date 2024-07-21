@@ -32,7 +32,7 @@ spec:
             - name: ADMIN_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: palworld-secrets
+                  name: palworld-rcon-password
                   key: rconPassword
           envFrom:
             - configMapRef:
