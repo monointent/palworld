@@ -17,4 +17,5 @@ spec:
       targetPort: query
   selector:
     app: palworld-server
+  loadBalancerIP: 10.1.40.15
   type: LoadBalancer
